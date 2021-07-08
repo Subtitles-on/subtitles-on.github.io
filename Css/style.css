@@ -1,3 +1,16 @@
 #on-title{
     background-color: blueviolet;
 }
+
+#navTitle{
+    background-color: black;
+    text-align: center;
+}
+
+#jumbo-text{
+    background-color: rgb(202, 154, 247);
+}
+
+nav{
+    background-color: blueviolet;
+}
