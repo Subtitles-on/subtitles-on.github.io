@@ -14,3 +14,16 @@
 nav{
     background-color: blueviolet;
 }
+
+.jumboh4{
+    padding-top: 2%;
+}
+
+.news-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+a{
+ text-decoration: none;
+ color:black;
+}

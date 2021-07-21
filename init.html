@@ -21,12 +21,12 @@
 <body>
        <!--navbar-->
        <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">Tutorials:<span style="background-color: rgb(206, 121, 255); color: black;">ON</span></a>
+        <a class="navbar-brand">Tutorials:<span style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">ON</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto justify-content-center">
             <li class="nav-item active">
               <a class="nav-link" href="init.html">Main-Page<span class="sr-only">(current)</span></a>
             </li>
@@ -42,6 +42,13 @@
 
      <!--Navbar-->
 
+     <div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <strong>Estamos em fase de construção!</strong> 
+    </div>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
@@ -54,11 +61,8 @@
 
     <div class="jumbotron" id='jumbo-text'>
 
-      <h3>Tutorials on</h3>
-      <h4>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-         ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-         Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-         Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+      <h2 style="text-align:center;">Sobre nossos objetivos:</h2>
+      <h4 class="jumboh4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         
         
         
@@ -67,51 +71,55 @@
 
     </div>
  
-     <div class="card-dec">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="./images/spelunky.jpeg" alt="..." class="card-image">
+    <div class="container">
+
+      <hr class="news-divider">
+      <!--News 1-->
+      <div class="row news">
+          <div class="col-md-7 order-md-2">
+              <h2 class="news-heading"><a href="jogos.html">League of Legends </a><span class="text-muted">| Não sabe por onde começar no Lol? Dá uma olhada aqui!</span>
+              </h2>
+              <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+              </p>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Spelunky</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Autor: Paulo José</small></p>
-            </div>
+          <div class="col-md-5 order-md-1">
+              <img src="./images/lol.jpeg" alt="Lol" class="img-fluid mx-auto featurette-image">
           </div>
-        </div>
       </div>
-      
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="./images/lol.jpeg" alt="..." class="card-image">
+      <!--News 1-->
+      <hr class="news-divider">
+      <!--News 2-->
+      <div class="row news">
+          <div class="col-md-7">
+              <h2 class="news-heading"><a href="jogos.html">Rainbow Six Siege</a> <span class="text-muted">| Saiba como melhorar sua bala na partida ranqueada!</span>
+              </h2>
+              <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">League of legends</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Autor: Benjamim Ferreira</small></p>
-            </div>
+          <div class="col-md-5">
+              <img src="./images/r6.jpeg" alt="Rainbow-six" class="img-fluid mx-auto featurette-image">
           </div>
-        </div>
       </div>
-      
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="./images/r6.jpeg" alt="..." class="card-image">
+      <!--News 2-->
+      <hr class="news-divider">
+  
+      <!--News 3-->
+      <div class="row news">
+          <div class="col-md-7 order-md-2">
+              <h2 class="news-heading"><a href="jogos.html">Spelunky 2</a> <span class="text-muted">| Aprenda a sobreviver nesta aventura!</span>
+              </h2>
+              <p class="lead">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Rainbow six</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Autor: João Felipi Cardoso</small></p>
-            </div>
+          <div class="col-md-5 order-md-1">
+              <img src="./images/spelunky.jpeg" alt="spelunky" class="img-fluid mx-auto featurette-image">
           </div>
-        </div>
       </div>
+  
+      <hr class="news-divider">
+      <!--News 3-->
+  </div>
+  <!--Main-page (News)-->
   </main>
 
   <div style="background-color: blueviolet;">
